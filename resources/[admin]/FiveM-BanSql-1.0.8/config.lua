@@ -7,15 +7,9 @@ Config.MultiServerSync   = false   --This will check if a ban is add in the sql 
 
 
 --WEBHOOK
-Config.EnableDiscordLink = true -- only turn this on if you want link the log to a discord
-Config.webhookban        = ""
-Config.webhookunban      = ""
-Config.green             = 56108
-Config.grey              = 8421504
-Config.red               = 16711680
-Config.orange            = 16744192
-Config.blue              = 2061822
-Config.purple            = 11750815
+Config.EnableDiscordLink = false --Turn this true if you want link the log to a discord (true-false)
+Config.webhookban        = "https://discordapp.com/api/webhooks/473571126690316298/oJZBU9YLz9ksOCG_orlf-wpMZ2pkFedfpEsC34DN_iHO0CBBp6X06W3mMJ2RvMMK7vIO"
+Config.webhookunban      = "https://discordapp.com/api/webhooks/473571126690316298/oJZBU9YLz9ksOCG_orlf-wpMZ2pkFedfpEsC34DN_iHO0CBBp6X06W3mMJ2RvMMK7vIO"
 
 
 --LANGUAGE
@@ -25,7 +19,6 @@ Config.TextFr = {
 	banlistloaded = "La BanList a ete charger avec succes.",
 	historyloaded = "La BanListHistory a ete charger avec succes.",
 	loaderror     = "ERROR : La BanList n a pas été charger.",
-	forcontinu    = " jours. Pour continuer entrer /sqlreason (Raison du ban)",
 	noreason      = "Raison Inconnue",
 	during        = " pendant : ",
 	noresult      = "Il n'y a pas autant de résultats !",
@@ -48,8 +41,10 @@ Config.TextFr = {
 	by            = "par",
 	ban           = "Bannir un joueurs qui est en ligne",
 	banoff        = "Bannir un joueurs qui est hors ligne",
+	bansearch     = "Trouver l'id permanant d'un joueur qui est hors ligne",
 	dayhelp       = "Nombre de jours",
 	reason        = "Raison du ban",
+	permid        = "Trouver l'id permanant avec la commande (sqlsearch)",
 	history       = "Affiche tout les bans d'un joueur",
 	reload        = "Recharge la BanList et la BanListHistory",
 	unban         = "Retirez un ban de la liste",
@@ -63,13 +58,12 @@ Config.TextEn = {
 	banlistloaded = "The BanList has been loaded successfully.",
 	historyloaded = "The BanListHistory has been loaded successfully.",
 	loaderror     = "ERROR: The BanList was not loaded.",
-	forcontinu    = " days. To continue entering /sqlreason (Ban reason)",
 	noreason      = "unknown reason",
 	during        = " during : ",
 	noresult      = "There are not as many results!",
 	isban         = " was ban",
 	isunban       = " was unban",
-	invalidsteam  =  "You should open steam",
+	invalidsteam  = "You should open steam",
 	invalidid     = "Player ID incorrect",
 	invalidname   = "The name is not valid",
 	invalidtime   = "Bad ban duration",
@@ -86,8 +80,10 @@ Config.TextEn = {
 	by            = "by",
 	ban           = "Ban one online player",
 	banoff        = "Ban one offline player",
+	bansearch     = "Find perm id of an offline player",
 	dayhelp       = "Number of day",
 	reason        = "Reason of ban",
+	permid        = "Find perm id with command (sqlsearch)",
 	history       = "Show all ban of a player",
 	reload        = "Reload BanList and BanListHistory",
 	unban         = "Remove one ban from the list",
