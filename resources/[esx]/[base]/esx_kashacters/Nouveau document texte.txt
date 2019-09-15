@@ -1,0 +1,6 @@
+SWITCH PERSO
+
+RegisterCommand('switch', function()
+TriggerEvent('kashactersC:ReloadCharacters')
+end)
+
