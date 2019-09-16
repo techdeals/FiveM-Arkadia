@@ -242,3 +242,7 @@ AddEventHandler('esx_weapons:compTints', function(value)
   end
 
 end)
+
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

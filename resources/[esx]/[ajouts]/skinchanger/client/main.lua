@@ -350,3 +350,7 @@ AddEventHandler('skinchanger:loadClothes', function(playerSkin, clothesSkin)
   LastSex = playerSkin['sex']
 
 end)
+
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

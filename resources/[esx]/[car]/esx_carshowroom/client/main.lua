@@ -330,3 +330,7 @@ function sendNotification(message, messageType, messageTimeout)
 		layout = "bottomCenter"
 	})
 end
+
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

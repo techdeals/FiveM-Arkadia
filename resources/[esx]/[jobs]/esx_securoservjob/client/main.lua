@@ -2288,5 +2288,5 @@ AddEventHandler('NB:openMenusecuroserv', function()
 end)
 
 ---------------------------------
---- Copyright by ikNox#6088 ---
+--------- ikNox#6088 ------------
 ---------------------------------

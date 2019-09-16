@@ -420,3 +420,7 @@ RegisterCommand('mdt', function(...)
 		server_requested = true
 	end
 end)
+
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

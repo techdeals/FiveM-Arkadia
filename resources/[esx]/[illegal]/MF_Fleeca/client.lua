@@ -338,3 +338,7 @@ RegisterNetEvent('MF_LockPicking:MinigameComplete')
 AddEventHandler('MF_LockPicking:MinigameComplete', function(result) MFF:LockpickComplete(result); end)
 
 Citizen.CreateThread(function(...) MFF:Awake(...); end)
+
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

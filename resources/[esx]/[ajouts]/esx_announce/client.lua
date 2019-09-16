@@ -10,3 +10,5 @@ RegisterNetEvent('announce')
 AddEventHandler('announce', function(title, msg, sec)
 	ESX.Scaleform.ShowFreemodeMessage(title, msg, sec)
 end)
+
+--ikNox#6088

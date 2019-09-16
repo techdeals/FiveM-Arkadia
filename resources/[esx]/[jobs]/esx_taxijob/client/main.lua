@@ -802,3 +802,7 @@ end)
 AddEventHandler('playerSpawned', function(spawn)
 	IsDead = false
 end)
+
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

@@ -4,7 +4,7 @@
 ------------------------------
 
 --- CONFIG ---
-password = "AtriumRP" -- Set server password here
+password = "Password" -- Set server password here
 kickMessage = "Mot de passe incorrecte" -- The invalid password kick message. Default: Invalid Password
 timeRanOutMsg = "Vous n'avez plus le temps d'entrer le mot de passe" --Not active yet! Dont worry about this
 timeoutMessage = "Mot de passe incorrecte. Veuillez attendre %s avant d'essayer de vous connecter à nouveau." -- Displayed if the user tries to attempt too many times, this locks them out of the server for x seconds

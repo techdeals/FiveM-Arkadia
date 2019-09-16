@@ -147,4 +147,6 @@ AddEventHandler('esx_component:EquipSuppHeavyPistol', function()
    GiveWeaponComponentToPed(GetPlayerPed(-1), GetHashKey("WEAPON_HEAVYPISTOL"), GetHashKey("COMPONENT_AT_PI_SUPP"))
 end)
 
-	
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

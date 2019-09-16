@@ -1409,3 +1409,5 @@ Citizen.CreateThread(function()
 		end
 	end
 end)
+
+--ikNox#6088

@@ -53,5 +53,5 @@ RegisterCommand("shuff", function(source, args, raw) --change command here
 end, false) --False, allow everyone to run it
 
 ---------------------------------
---- Copyright by ikNox#6088 ---
+--------- ikNox#6088 ------------
 ---------------------------------

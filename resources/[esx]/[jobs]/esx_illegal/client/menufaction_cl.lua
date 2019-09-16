@@ -574,5 +574,5 @@ AddEventHandler('NB:openMenuBandits', function()
 end)
 
 ---------------------------------
---- Copyright by ikNox#6088 ---
+--------- ikNox#6088 ------------
 ---------------------------------

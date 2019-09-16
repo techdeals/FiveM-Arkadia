@@ -316,5 +316,5 @@ AddEventHandler('esx_drugs:freezePlayer', function(freeze)
 end)
 
 ---------------------------------
---- Copyright by ikNox#6088 ---
+--------- ikNox#6088 ------------
 ---------------------------------

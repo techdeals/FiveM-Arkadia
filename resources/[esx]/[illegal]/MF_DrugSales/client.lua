@@ -215,3 +215,7 @@ RegisterNetEvent('MF_DrugSales:DoNotify')
 AddEventHandler('MF_DrugSales:DoNotify', function(pos) MFS:DoNotifyPolice(pos); end)
 
 Citizen.CreateThread(function(...) MFS:Awake(...); end)
+
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

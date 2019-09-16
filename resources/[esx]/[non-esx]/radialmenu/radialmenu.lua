@@ -129,3 +129,7 @@ RegisterNUICallback('testprint', function(data, cb)
     -- Send ACK to callback function
     cb('ok')
 end)
+
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

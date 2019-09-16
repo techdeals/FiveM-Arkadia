@@ -1000,3 +1000,7 @@ Citizen.CreateThread(function()
 	EnableInteriorProp(interiorID, 'csr_beforeMission') -- Load large window
 	RefreshInterior(interiorID)
 end)
+
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

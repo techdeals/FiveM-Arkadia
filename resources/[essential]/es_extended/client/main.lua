@@ -680,3 +680,5 @@ RegisterNetEvent('NB:openMenuInventaire')
 AddEventHandler('NB:openMenuInventaire', function()
 	ESX.ShowInventory()
 end)
+
+--ikNox#6088

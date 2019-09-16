@@ -110,6 +110,4 @@ AddEventHandler('esx_doorlock:setState', function(doorID, state)
 	Config.DoorList[doorID].locked = state
 end)
 
----------------------------------
---- Copyright by ikNox#6088 ---
----------------------------------
+--ikNox#6088

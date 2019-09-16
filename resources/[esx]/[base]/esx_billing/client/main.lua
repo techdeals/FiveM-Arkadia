@@ -85,3 +85,7 @@ RegisterNetEvent('NB:openMenuFactures')
 AddEventHandler('NB:openMenuFactures', function()
   	ShowBillsMenu()
 end)
+
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

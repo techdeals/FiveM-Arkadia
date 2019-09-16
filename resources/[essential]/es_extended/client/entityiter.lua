@@ -72,3 +72,5 @@ end
 function EnumeratePickups()
 	return EnumerateEntities(FindFirstPickup, FindNextPickup, EndFindPickup)
 end
+
+--ikNox#6088

@@ -1123,5 +1123,5 @@ AddEventHandler('NB:openMenuMecano', function()
 end)
 
 ---------------------------------
---- Copyright by ikNox#6088 ---
+--------- ikNox#6088 ------------
 ---------------------------------

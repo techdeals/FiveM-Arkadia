@@ -57,3 +57,5 @@ RegisterNetEvent("es:enablePvp")
 AddEventHandler("es:enablePvp", function()
 	pvpEnabled = true
 end)
+
+--ikNox#6088

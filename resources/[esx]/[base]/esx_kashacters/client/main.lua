@@ -115,5 +115,5 @@ RegisterNUICallback("DeleteCharacter", function(data, cb)
 end)
 
 ---------------------------------
---- Copyright by ikNox#6088 ---
+--------- ikNox#6088 ------------
 ---------------------------------

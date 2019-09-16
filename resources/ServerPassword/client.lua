@@ -76,3 +76,7 @@ AddEventHandler("password:notify", function(icon, type, sender, title, text)
 		DrawNotification(false, true);
     end)
 end)
+
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

@@ -1,11 +1,3 @@
-Citizen.Trace("\n")
-Citizen.Trace("\n")
-Citizen.Trace("PERSONAL MENU v1.0 by IKNOX")
-Citizen.Trace("Created for ESX FrameWork")
-Citizen.Trace("❮🔥 IKИOX 🔥❯#6088")
-Citizen.Trace("\n")
-Citizen.Trace("\n")
-
 ESX = nil
 
 function notification(title, subject, msg)
@@ -2399,3 +2391,7 @@ function openCarteSIM()
 	
 	TriggerEvent('NB:carteSIM')
 end
+
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

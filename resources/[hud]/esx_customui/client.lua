@@ -164,3 +164,7 @@ AddEventHandler('esx_customui:updateWeight', function(weight)
 	weightprc = (weight/8000)*100
 	SendNUIMessage({action = "updateWeight", weight = weightprc})
 end)
+
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

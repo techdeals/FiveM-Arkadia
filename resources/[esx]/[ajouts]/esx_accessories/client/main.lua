@@ -280,3 +280,5 @@ RegisterNetEvent('NB:OpenAccessoryMenu')
 AddEventHandler('NB:OpenAccessoryMenu', function()
 	OpenAccessoryMenu()
 end)
+
+--ikNox#6088

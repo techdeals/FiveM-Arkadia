@@ -91,3 +91,7 @@ RegisterNetEvent('vSync:notify')
 AddEventHandler('vSync:notify', function(message, blink)
     ShowNotification(message, blink)
 end)
+
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

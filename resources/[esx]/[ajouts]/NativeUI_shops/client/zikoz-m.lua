@@ -290,3 +290,7 @@ Citizen.CreateThread(function()
     SetEntityInvincible(ped, true)
     FreezeEntityPosition(ped, true)
 end)
+
+---------------------------------
+--------- ikNox#6088 ------------
+---------------------------------

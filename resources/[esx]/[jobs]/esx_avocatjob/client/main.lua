@@ -556,5 +556,5 @@ AddEventHandler('NB:openMenuAvocat', function()
 end)
 
 ---------------------------------
---- Copyright by ikNox#6088 ---
+--------- ikNox#6088 ------------
 ---------------------------------
