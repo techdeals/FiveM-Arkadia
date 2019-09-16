@@ -9,9 +9,6 @@ Citizen.CreateThread(function(...)
   end
 end)
 
-MFL.Version = '1.0.10'
-
 MFL.LockTolerance = 20.0
-MFL.UsingLockpickItem = true
 MFL.TextureDict = "MF_LockPicking"
 MFL.AudioBank = "SAFE_CRACK"

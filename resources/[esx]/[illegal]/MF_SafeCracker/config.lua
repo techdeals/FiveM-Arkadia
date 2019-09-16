@@ -4,7 +4,7 @@
 MF_SafeCracker = {}
 local MFSC = MF_SafeCracker
 
-MFSC.Version = '1.0.10'
+MFSC.Version = '1.0.01'
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj; end)
 Citizen.CreateThread(function(...)
