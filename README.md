@@ -23,9 +23,11 @@ Pour ajouter les images des métiers ou les changers :
 "[hud]\esx_customui\html\img" (Nommer l'image avec le nom du job)
 
 Changer le nom du menu de sélection du personnage :
+
 "[esx]\[base]\esx_kashacters\html\ui.html"
 
 Changer le LoadingScreen (Nom et Image) : 
+
 "[hud]\panzar-load\edit_this.html"
 "[hud]\panzar-load\keks.css"
 
