@@ -117,29 +117,29 @@ AddEventHandler('esx_drugs:hasExitedMarker', function(zone)
 	ESX.UI.Menu.CloseAll()
 
 	if zone == 'CokeField' then
-		TriggerServerEvent('esx_drugs:stopHarvestCoke')
+		TriggerServerEvent('esx_drugs:stopHarvestCoke1')
 	elseif zone == 'CokeProcessing' then
-	TriggerServerEvent('esx_drugs:stopTransformCoke')
+	TriggerServerEvent('esx_drugs:stopTransformCoke1')
 	elseif zone == 'CokeDealer' then
-		TriggerServerEvent('esx_drugs:stopSellCoke')
+		TriggerServerEvent('esx_drugs:stopSellCoke1')
 	elseif zone == 'MethField' then
-		TriggerServerEvent('esx_drugs:stopHarvestMeth')
+		TriggerServerEvent('esx_drugs:stopHarvestMeth1')
 	elseif zone == 'MethProcessing' then
-		TriggerServerEvent('esx_drugs:stopTransformMeth')
+		TriggerServerEvent('esx_drugs:stopTransformMeth1')
 	elseif zone == 'MethDealer' then
-		TriggerServerEvent('esx_drugs:stopSellMeth')
+		TriggerServerEvent('esx_drugs:stopSellMeth1')
 	elseif zone == 'WeedField' then
-		TriggerServerEvent('esx_drugs:stopHarvestWeed')
+		TriggerServerEvent('esx_drugs:stopHarvestWeed1')
 	elseif zone == 'WeedProcessing' then
-		TriggerServerEvent('esx_drugs:stopTransformWeed')
+		TriggerServerEvent('esx_drugs:stopTransformWeed1')
 	elseif zone == 'WeedDealer' then
-		TriggerServerEvent('esx_drugs:stopSellWeed')
+		TriggerServerEvent('esx_drugs:stopSellWeed1')
 	elseif zone == 'OpiumField' then
-		TriggerServerEvent('esx_drugs:stopHarvestOpium')
+		TriggerServerEvent('esx_drugs:stopHarvestOpium1')
 	elseif zone == 'OpiumProcessing' then
-		TriggerServerEvent('esx_drugs:stopTransformOpium')
+		TriggerServerEvent('esx_drugs:stopTransformOpium1')
 	elseif zone == 'OpiumDealer' then
-		TriggerServerEvent('esx_drugs:stopSellOpium')
+		TriggerServerEvent('esx_drugs:stopSellOpium1')
 	end
 end)
 
@@ -273,29 +273,29 @@ Citizen.CreateThread(function()
 					TriggerEvent('esx_drugs:hasExitedMarker', lastZone)
 					Citizen.Wait(1000)
 				elseif CurrentAction == 'CokeField' then
-					TriggerServerEvent('esx_drugs:startHarvestCoke')
+					TriggerServerEvent('esx_drugs:startHarvestCoke1')
 				elseif CurrentAction == 'CokeProcessing' then
-					TriggerServerEvent('esx_drugs:startTransformCoke')
+					TriggerServerEvent('esx_drugs:startTransformCoke1')
 				elseif CurrentAction == 'CokeDealer' then
-					TriggerServerEvent('esx_drugs:startSellCoke')
+					TriggerServerEvent('esx_drugs:startSellCoke1')
 				elseif CurrentAction == 'MethField' then
-					TriggerServerEvent('esx_drugs:startHarvestMeth')
+					TriggerServerEvent('esx_drugs:startHarvestMeth1')
 				elseif CurrentAction == 'MethProcessing' then
-					TriggerServerEvent('esx_drugs:startTransformMeth')
+					TriggerServerEvent('esx_drugs:startTransformMeth1')
 				elseif CurrentAction == 'MethDealer' then
-					TriggerServerEvent('esx_drugs:startSellMeth')
+					TriggerServerEvent('esx_drugs:startSellMeth1')
 				elseif CurrentAction == 'WeedField' then
-					TriggerServerEvent('esx_drugs:startHarvestWeed')
+					TriggerServerEvent('esx_drugs:startHarvestWeed1')
 				elseif CurrentAction == 'WeedProcessing' then
-					TriggerServerEvent('esx_drugs:startTransformWeed')
+					TriggerServerEvent('esx_drugs:startTransformWeed1')
 				elseif CurrentAction == 'WeedDealer' then
-					TriggerServerEvent('esx_drugs:startSellWeed')
+					TriggerServerEvent('esx_drugs:startSellWeed1')
 				elseif CurrentAction == 'OpiumField' then
-					TriggerServerEvent('esx_drugs:startHarvestOpium')
+					TriggerServerEvent('esx_drugs:startHarvestOpium1')
 				elseif CurrentAction == 'OpiumProcessing' then
-					TriggerServerEvent('esx_drugs:startTransformOpium')
+					TriggerServerEvent('esx_drugs:startTransformOpium1')
 				elseif CurrentAction == 'OpiumDealer' then
-					TriggerServerEvent('esx_drugs:startSellOpium')
+					TriggerServerEvent('esx_drugs:startSellOpium1')
 				else
 					isInZone = false -- not a esx_drugs zone
 				end

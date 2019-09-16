@@ -54,8 +54,8 @@ local function HarvestCoke(source)
 	end)
 end
 
-RegisterServerEvent('esx_drugs:startHarvestCoke')
-AddEventHandler('esx_drugs:startHarvestCoke', function()
+RegisterServerEvent('esx_drugs:startHarvestCoke1')
+AddEventHandler('esx_drugs:startHarvestCoke1', function()
 	local _source = source
 
 	if not PlayersHarvestingCoke[_source] then
@@ -68,8 +68,8 @@ AddEventHandler('esx_drugs:startHarvestCoke', function()
 	end
 end)
 
-RegisterServerEvent('esx_drugs:stopHarvestCoke')
-AddEventHandler('esx_drugs:stopHarvestCoke', function()
+RegisterServerEvent('esx_drugs:stopHarvestCoke1')
+AddEventHandler('esx_drugs:stopHarvestCoke1', function()
 	local _source = source
 
 	PlayersHarvestingCoke[_source] = false
@@ -102,8 +102,8 @@ local function TransformCoke(source)
 	end)
 end
 
-RegisterServerEvent('esx_drugs:startTransformCoke')
-AddEventHandler('esx_drugs:startTransformCoke', function()
+RegisterServerEvent('esx_drugs:startTransformCoke1')
+AddEventHandler('esx_drugs:startTransformCoke1', function()
 	local _source = source
 
 	if not PlayersTransformingCoke[_source] then
@@ -116,8 +116,8 @@ AddEventHandler('esx_drugs:startTransformCoke', function()
 	end
 end)
 
-RegisterServerEvent('esx_drugs:stopTransformCoke')
-AddEventHandler('esx_drugs:stopTransformCoke', function()
+RegisterServerEvent('esx_drugs:stopTransformCoke1')
+AddEventHandler('esx_drugs:stopTransformCoke1', function()
 	local _source = source
 
 	PlayersTransformingCoke[_source] = false
@@ -165,8 +165,8 @@ local function SellCoke(source)
 	end)
 end
 
-RegisterServerEvent('esx_drugs:startSellCoke')
-AddEventHandler('esx_drugs:startSellCoke', function()
+RegisterServerEvent('esx_drugs:startSellCoke1')
+AddEventHandler('esx_drugs:startSellCoke1', function()
 	local _source = source
 
 	if not PlayersSellingCoke[_source] then
@@ -179,8 +179,8 @@ AddEventHandler('esx_drugs:startSellCoke', function()
 	end
 end)
 
-RegisterServerEvent('esx_drugs:stopSellCoke')
-AddEventHandler('esx_drugs:stopSellCoke', function()
+RegisterServerEvent('esx_drugs:stopSellCoke1')
+AddEventHandler('esx_drugs:stopSellCoke1', function()
 	local _source = source
 
 	PlayersSellingCoke[_source] = false
@@ -209,8 +209,8 @@ local function HarvestMeth(source)
 	end)
 end
 
-RegisterServerEvent('esx_drugs:startHarvestMeth')
-AddEventHandler('esx_drugs:startHarvestMeth', function()
+RegisterServerEvent('esx_drugs:startHarvestMeth1')
+AddEventHandler('esx_drugs:startHarvestMeth1', function()
 	local _source = source
 
 	if not PlayersHarvestingMeth[_source] then
@@ -223,8 +223,8 @@ AddEventHandler('esx_drugs:startHarvestMeth', function()
 	end
 end)
 
-RegisterServerEvent('esx_drugs:stopHarvestMeth')
-AddEventHandler('esx_drugs:stopHarvestMeth', function()
+RegisterServerEvent('esx_drugs:stopHarvestMeth1')
+AddEventHandler('esx_drugs:stopHarvestMeth1', function()
 	local _source = source
 
 	PlayersHarvestingMeth[_source] = false
@@ -257,8 +257,8 @@ local function TransformMeth(source)
 	end)
 end
 
-RegisterServerEvent('esx_drugs:startTransformMeth')
-AddEventHandler('esx_drugs:startTransformMeth', function()
+RegisterServerEvent('esx_drugs:startTransformMeth1')
+AddEventHandler('esx_drugs:startTransformMeth1', function()
 	local _source = source
 
 	if not PlayersTransformingMeth[_source] then
@@ -271,8 +271,8 @@ AddEventHandler('esx_drugs:startTransformMeth', function()
 	end
 end)
 
-RegisterServerEvent('esx_drugs:stopTransformMeth')
-AddEventHandler('esx_drugs:stopTransformMeth', function()
+RegisterServerEvent('esx_drugs:stopTransformMeth1')
+AddEventHandler('esx_drugs:stopTransformMeth1', function()
 	local _source = source
 
 	PlayersTransformingMeth[_source] = false
@@ -323,8 +323,8 @@ local function SellMeth(source)
 	end)
 end
 
-RegisterServerEvent('esx_drugs:startSellMeth')
-AddEventHandler('esx_drugs:startSellMeth', function()
+RegisterServerEvent('esx_drugs:startSellMeth1')
+AddEventHandler('esx_drugs:startSellMeth1', function()
 	local _source = source
 
 	if not PlayersSellingMeth[_source] then
@@ -337,8 +337,8 @@ AddEventHandler('esx_drugs:startSellMeth', function()
 	end
 end)
 
-RegisterServerEvent('esx_drugs:stopSellMeth')
-AddEventHandler('esx_drugs:stopSellMeth', function()
+RegisterServerEvent('esx_drugs:stopSellMeth1')
+AddEventHandler('esx_drugs:stopSellMeth1', function()
 	local _source = source
 
 	PlayersSellingMeth[_source] = false
@@ -367,8 +367,8 @@ local function HarvestWeed(source)
 	end)
 end
 
-RegisterServerEvent('esx_drugs:startHarvestWeed')
-AddEventHandler('esx_drugs:startHarvestWeed', function()
+RegisterServerEvent('esx_drugs:startHarvestWeed1')
+AddEventHandler('esx_drugs:startHarvestWeed1', function()
 	local _source = source
 
 	if not PlayersHarvestingWeed[_source] then
@@ -381,8 +381,8 @@ AddEventHandler('esx_drugs:startHarvestWeed', function()
 	end
 end)
 
-RegisterServerEvent('esx_drugs:stopHarvestWeed')
-AddEventHandler('esx_drugs:stopHarvestWeed', function()
+RegisterServerEvent('esx_drugs:stopHarvestWeed1')
+AddEventHandler('esx_drugs:stopHarvestWeed1', function()
 	local _source = source
 
 	PlayersHarvestingWeed[_source] = false
@@ -415,8 +415,8 @@ local function TransformWeed(source)
 	end)
 end
 
-RegisterServerEvent('esx_drugs:startTransformWeed')
-AddEventHandler('esx_drugs:startTransformWeed', function()
+RegisterServerEvent('esx_drugs:startTransformWeed1')
+AddEventHandler('esx_drugs:startTransformWeed1', function()
 	local _source = source
 
 	if not PlayersTransformingWeed[_source] then
@@ -429,8 +429,8 @@ AddEventHandler('esx_drugs:startTransformWeed', function()
 	end
 end)
 
-RegisterServerEvent('esx_drugs:stopTransformWeed')
-AddEventHandler('esx_drugs:stopTransformWeed', function()
+RegisterServerEvent('esx_drugs:stopTransformWeed1')
+AddEventHandler('esx_drugs:stopTransformWeed1', function()
 	local _source = source
 
 	PlayersTransformingWeed[_source] = false
@@ -475,8 +475,8 @@ local function SellWeed(source)
 	end)
 end
 
-RegisterServerEvent('esx_drugs:startSellWeed')
-AddEventHandler('esx_drugs:startSellWeed', function()
+RegisterServerEvent('esx_drugs:startSellWeed1')
+AddEventHandler('esx_drugs:startSellWeed1', function()
 	local _source = source
 
 	if not PlayersSellingWeed[_source] then
@@ -489,8 +489,8 @@ AddEventHandler('esx_drugs:startSellWeed', function()
 	end
 end)
 
-RegisterServerEvent('esx_drugs:stopSellWeed')
-AddEventHandler('esx_drugs:stopSellWeed', function()
+RegisterServerEvent('esx_drugs:stopSellWeed1')
+AddEventHandler('esx_drugs:stopSellWeed1', function()
 	local _source = source
 
 	PlayersSellingWeed[_source] = false
@@ -519,8 +519,8 @@ local function HarvestOpium(source)
 	end)
 end
 
-RegisterServerEvent('esx_drugs:startHarvestOpium')
-AddEventHandler('esx_drugs:startHarvestOpium', function()
+RegisterServerEvent('esx_drugs:startHarvestOpium1')
+AddEventHandler('esx_drugs:startHarvestOpium1', function()
 	local _source = source
 
 	if not PlayersHarvestingOpium[_source] then
@@ -533,8 +533,8 @@ AddEventHandler('esx_drugs:startHarvestOpium', function()
 	end
 end)
 
-RegisterServerEvent('esx_drugs:stopHarvestOpium')
-AddEventHandler('esx_drugs:stopHarvestOpium', function()
+RegisterServerEvent('esx_drugs:stopHarvestOpium1')
+AddEventHandler('esx_drugs:stopHarvestOpium1', function()
 	local _source = source
 
 	PlayersHarvestingOpium[_source] = false
@@ -567,8 +567,8 @@ local function TransformOpium(source)
 	end)
 end
 
-RegisterServerEvent('esx_drugs:startTransformOpium')
-AddEventHandler('esx_drugs:startTransformOpium', function()
+RegisterServerEvent('esx_drugs:startTransformOpium1')
+AddEventHandler('esx_drugs:startTransformOpium1', function()
 	local _source = source
 
 	if not PlayersTransformingOpium[_source] then
@@ -581,8 +581,8 @@ AddEventHandler('esx_drugs:startTransformOpium', function()
 	end
 end)
 
-RegisterServerEvent('esx_drugs:stopTransformOpium')
-AddEventHandler('esx_drugs:stopTransformOpium', function()
+RegisterServerEvent('esx_drugs:stopTransformOpium1')
+AddEventHandler('esx_drugs:stopTransformOpium1', function()
 	local _source = source
 
 	PlayersTransformingOpium[_source] = false
@@ -630,8 +630,8 @@ local function SellOpium(source)
 	end)
 end
 
-RegisterServerEvent('esx_drugs:startSellOpium')
-AddEventHandler('esx_drugs:startSellOpium', function()
+RegisterServerEvent('esx_drugs:startSellOpium1')
+AddEventHandler('esx_drugs:startSellOpium1', function()
 	local _source = source
 
 	if not PlayersSellingOpium[_source] then
@@ -644,8 +644,8 @@ AddEventHandler('esx_drugs:startSellOpium', function()
 	end
 end)
 
-RegisterServerEvent('esx_drugs:stopSellOpium')
-AddEventHandler('esx_drugs:stopSellOpium', function()
+RegisterServerEvent('esx_drugs:stopSellOpium1')
+AddEventHandler('esx_drugs:stopSellOpium1', function()
 	local _source = source
 
 	PlayersSellingOpium[_source] = false
