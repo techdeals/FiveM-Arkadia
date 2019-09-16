@@ -31,6 +31,10 @@ Changer le LoadingScreen (Nom et Image) :
 "[hud]\panzar-load\edit_this.html"
 "[hud]\panzar-load\keks.css"
 
+Changer l'argent de départ :
+
+"[essential]\essentialmode\server\util.lua"
+
 Un script de Semi-Whitelist est aussi disponible, pour l'utiliser lancer "esx_douane" ensuite direction :
 "reboot\server" décommenté la ligne 32 à 37 et modifier l'heure à laquel vous voulez que la whiteliste se lance et à quelle heure vous voulez l'arrêter.
 
