@@ -43,13 +43,6 @@ CREATE TABLE IF NOT EXISTS `addon_account` (
 INSERT INTO `addon_account` (`name`, `label`, `shared`) VALUES
 ('bank_savings', 'Livret Bleu', 0),
 ('caution', 'Caution', 0),
-('hotel_black_money', 'Argent Sale Hotel', 0),
-('motels_bed_black_money', 'Motels Black Money Bed', 0),
-('motels_black_money', 'Motels Black Money ', 0),
-('organisation_biker', 'biker', 1),
-('organisation_cartel', 'cartel', 1),
-('organisation_gang', 'gang', 1),
-('organisation_mafia', 'mafia', 1),
 ('property_black_money', 'Argent Sale Propriété', 0),
 ('society_aircraftdealer', 'Airliner', 1),
 ('society_ambulance', 'Ambulance', 1),
@@ -418,13 +411,6 @@ CREATE TABLE IF NOT EXISTS `datastore` (
 --
 
 INSERT INTO `datastore` (`name`, `label`, `shared`) VALUES
-('hotel', 'Hotel', 0),
-('motels', 'Motels Datastore', 0),
-('motels_bed', 'Motels Bed Datastore', 0),
-('organisation_biker', 'Biker', 1),
-('organisation_cartel', 'Cartel', 1),
-('organisation_gang', 'Gang', 1),
-('organisation_mafia', 'Mafia', 1),
 ('property', 'Propriété', 0),
 ('society_ambulance', 'Ambulance', 1),
 ('society_ammu', 'Ammu', 1),
