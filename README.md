@@ -1,6 +1,10 @@
 # FiveM-Arkadia
 French FiveM Server developped & edited by ikNox#6088
 
+Changer le mot de passe de connexion :
+
+resources\ServerPassword\server.lua ligne 7
+
 Discord Bot :
 
 "[admin]\FiveM-BanSql-1.0.8\config.lua"
