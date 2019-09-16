@@ -1224,6 +1224,7 @@ CREATE TABLE IF NOT EXISTS `owned_vehicles` (
   `owner` varchar(22) NOT NULL,
   `state` tinyint(1) NOT NULL DEFAULT '0' COMMENT 'Etat de la voiture',
   `plate` varchar(12) NOT NULL,
+  `impound` tinyint(1) DEFAULT 0,
   `vehicle` longtext,
   `type` varchar(20) NOT NULL DEFAULT 'car',
   `job` varchar(20) DEFAULT NULL,
@@ -1232,7 +1233,6 @@ CREATE TABLE IF NOT EXISTS `owned_vehicles` (
   `vehiclename` varchar(50) NOT NULL DEFAULT 'voiture',
   PRIMARY KEY (`plate`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
 -- --------------------------------------------------------
 
 --
