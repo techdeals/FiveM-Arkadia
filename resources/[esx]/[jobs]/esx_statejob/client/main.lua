@@ -915,9 +915,9 @@ function OpenFineCategoryMenu(player, category)
         menu.close()
 
         if Config.EnablePlayerManagement then
-          TriggerServerEvent('esx_billing:sendBill', GetPlayerServerId(player), 'society_state', _U('fine_total') .. label, amount)
+          TriggerServerEvent('esx_billing:sendBill1', GetPlayerServerId(player), 'society_state', _U('fine_total') .. label, amount)
         else
-          TriggerServerEvent('esx_billing:sendBill', GetPlayerServerId(player), '', _U('fine_total') .. label, amount)
+          TriggerServerEvent('esx_billing:sendBill1', GetPlayerServerId(player), '', _U('fine_total') .. label, amount)
         end
 
         ESX.SetTimeout(300, function()

@@ -296,7 +296,7 @@ function OpenMobileFuelerActionsMenu()
 									TaskStartScenarioInPlace(playerPed, 'CODE_HUMAN_MEDIC_TIME_OF_DEATH', 0, true)
 									Citizen.Wait(5000)
 									ClearPedTasks(playerPed)
-									TriggerServerEvent('esx_billing:sendBill', GetPlayerServerId(closestPlayer), 'society_pompiste', 'Pompiste', amount)
+									TriggerServerEvent('esx_billing:sendBill1', GetPlayerServerId(closestPlayer), 'society_pompiste', 'Pompiste', amount)
 								end)
 							end
 						end

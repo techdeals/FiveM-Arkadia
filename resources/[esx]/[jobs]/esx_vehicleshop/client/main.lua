@@ -456,7 +456,7 @@ function OpenResellerMenu()
 					if closestPlayer == -1 or closestDistance > 3.0 then
 						ESX.ShowNotification(_U('no_players'))
 					else
-						TriggerServerEvent('esx_billing:sendBill', GetPlayerServerId(closestPlayer), 'society_cardealer', _U('car_dealer'), tonumber(data2.value))
+						TriggerServerEvent('esx_billing:sendBill1', GetPlayerServerId(closestPlayer), 'society_cardealer', _U('car_dealer'), tonumber(data2.value))
 					end
 				end
 			end, function (data2, menu2)

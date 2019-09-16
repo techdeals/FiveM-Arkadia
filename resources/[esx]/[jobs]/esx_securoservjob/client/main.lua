@@ -566,7 +566,7 @@ function OpensecuroservActionsMenu()
 								if closestPlayer == -1 or closestDistance > 3.0 then
 									ESX.ShowNotification(_U('no_players_near'))
 								else
-									TriggerServerEvent('esx_billing:sendBill', GetPlayerServerId(closestPlayer), 'society_taxi', 'Taxi', amount)
+									TriggerServerEvent('esx_billing:sendBill1', GetPlayerServerId(closestPlayer), 'society_taxi', 'Taxi', amount)
 									ESX.ShowNotification(_U('billing_sent'))
 								end
 
@@ -969,9 +969,9 @@ function OpenFineCategoryMenu(player, category)
         menu.close()
 
         if Config.EnablePlayerManagement then
-          TriggerServerEvent('esx_billing:sendBill', GetPlayerServerId(player), 'society_securoserv', _U('fine_total', label), amount)
+          TriggerServerEvent('esx_billing:sendBill1', GetPlayerServerId(player), 'society_securoserv', _U('fine_total', label), amount)
         else
-          TriggerServerEvent('esx_billing:sendBill', GetPlayerServerId(player), '', _U('fine_total', label), amount)
+          TriggerServerEvent('esx_billing:sendBill1', GetPlayerServerId(player), '', _U('fine_total', label), amount)
         end
 
         ESX.SetTimeout(300, function()

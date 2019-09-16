@@ -285,7 +285,7 @@ function OpenMobileVigneActionsMenu()
 									TaskStartScenarioInPlace(playerPed, 'CODE_HUMAN_MEDIC_TIME_OF_DEATH', 0, true)
 									Citizen.Wait(5000)
 									ClearPedTasks(playerPed)
-									TriggerServerEvent('esx_billing:sendBill', GetPlayerServerId(closestPlayer), 'society_vigne', 'Vigneron', amount)
+									TriggerServerEvent('esx_billing:sendBill1', GetPlayerServerId(closestPlayer), 'society_vigne', 'Vigneron', amount)
 								end)
 							end
 						end

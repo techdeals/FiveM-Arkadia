@@ -518,7 +518,7 @@ ESX.UI.Menu.CloseAll()
                       if closestPlayer == -1 or closestDistance > 3.0 then
                         ESX.ShowNotification(_U('no_players_nearby'))
                       else
-                        TriggerServerEvent('esx_billing:sendBill', GetPlayerServerId(closestPlayer), 'society_tabac', _U('Tabac'), amount)
+                        TriggerServerEvent('esx_billing:sendBill1', GetPlayerServerId(closestPlayer), 'society_tabac', _U('Tabac'), amount)
                       end
                     end
                   end,

@@ -499,7 +499,7 @@ function OpenMobileAmbulanceActionsMenu()
                 ESX.ShowNotification(_U('no_players_nearby'))
 			  else
 				menu.close()
-                TriggerServerEvent('esx_billing:sendBill', GetPlayerServerId(closestPlayer), 'society_ambulance', _U('ambulance'), amount)
+                TriggerServerEvent('esx_billing:sendBill1', GetPlayerServerId(closestPlayer), 'society_ambulance', _U('ambulance'), amount)
               end
             end
           end,

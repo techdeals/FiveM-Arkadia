@@ -2,8 +2,8 @@ ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-RegisterServerEvent('esx_billing:sendBill')
-AddEventHandler('esx_billing:sendBill', function(playerId, sharedAccountName, label, amount)
+RegisterServerEvent('esx_billing:sendBill1')
+AddEventHandler('esx_billing:sendBill1', function(playerId, sharedAccountName, label, amount)
 	local _source = source
 	local xPlayer = ESX.GetPlayerFromId(_source)
 	local xTarget = ESX.GetPlayerFromId(playerId)
@@ -12,16 +12,6 @@ AddEventHandler('esx_billing:sendBill', function(playerId, sharedAccountName, la
 
 		if amount < 0 then
 			print('esx_billing: ' .. GetPlayerName(_source) .. ' tried sending a negative bill!')
-		elseif amount > 3500000 then
-			notifMsg    = "[esx_billing] | " ..xPlayer.name.. " ["..xPlayer.identifier.. "] a été automatiquement banni pour avoir tenté d'envoyé des factures à tout le monde."
-			--playerMsg    = " Exploiting esx_billing. Si vous pensez que c'est une erreur, veuillez consulter notre Discord: https://discord.gg/ACHANGER"
-			--print(notifMsg)
-			--TriggerClientEvent('chatMessage', -1, '^3[Chat]', {255, 0, 0}, "^3" ..xPlayer.name.. "^1 a été banni pour avoir tenté d'envoyé des factures à tout le monde.")
-			TriggerEvent('DiscordBot:ToDiscord', 'cheat', 'AntiCheat', notifMsg, 'https://scotchandiron.org/gameassets/anticheat-icon.png', true)
-			--bandata = {}
-			--bandata.reason    = playerMsg
-			--bandata.period    = '0' -- hours, 0 for permanent
-			--TriggerEvent('Anticheat:AutoBan', _source, bandata)
 		elseif account == nil then
 
 			if xTarget ~= nil then

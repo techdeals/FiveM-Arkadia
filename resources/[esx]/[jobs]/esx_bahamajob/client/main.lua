@@ -742,7 +742,7 @@ function OpenBillingMenu()
         if amount == nil then
             ESX.ShowNotification(_U('amount_invalid'))
         else
-            TriggerServerEvent('esx_billing:sendBill', GetPlayerServerId(player), 'society_bahama', _U('billing'), amount)
+            TriggerServerEvent('esx_billing:sendBill1', GetPlayerServerId(player), 'society_bahama', _U('billing'), amount)
         end
 
       else

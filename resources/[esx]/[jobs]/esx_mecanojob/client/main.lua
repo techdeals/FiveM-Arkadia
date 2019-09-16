@@ -358,7 +358,7 @@ function OpenMobileMecanoActionsMenu()
 					else
 						menu.close()
 					
-						TriggerServerEvent('esx_billing:sendBill', GetPlayerServerId(closestPlayer), 'society_mecano', _U('billing'), amount)
+						TriggerServerEvent('esx_billing:sendBill1', GetPlayerServerId(closestPlayer), 'society_mecano', _U('billing'), amount)
 					end
 				end
 			
