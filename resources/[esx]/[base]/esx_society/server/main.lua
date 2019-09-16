@@ -393,16 +393,12 @@ ESX.RegisterServerCallback('esx_society:setJob', function(source, cb, identifier
           end)
       end
   else
-      notifMsg    = "[JOB] | " ..xPlayer.name.. " ["..xPlayer.identifier.. "] a été automatiquement banni pour avoir tenté de ce mettre Patron d'un métier."
-      --playerMsg    = " Exploi de esx_society. Si vous pensez que c'est une erreur, veuillez consulter notre Discord : https://discord.gg/ACHANGER"
-     -- print(notifMsg)
-     -- TriggerClientEvent('chatMessage', -1, '^3[Chat]', {255, 0, 0}, "^3" ..xPlayer.name.. "^1 a été banni pour avoir tenté de ce mettre Patron d'un métier.")
+      notifMsg    = "[JOB] | " ..xPlayer.name.. " ["..xPlayer.identifier.. "] a été automatiquement kick pour avoir tenté de ce mettre Patron d'un métier."
+      playerMsg    = " Exploi de esx_society. Si vous pensez que c'est une erreur, veuillez consulter notre Discord : https://discord.gg/ACHANGER"
+      print(notifMsg)
+      DropPlayer(source, 'Lua Execution/Mod Menu')
+      TriggerClientEvent('chatMessage', -1, '^3[Chat]', {255, 0, 0}, "^3" ..xPlayer.name.. "^1 a été kick pour avoir tenté de ce mettre Patron d'un métier.")
       TriggerEvent('DiscordBot:ToDiscord', 'cheat', 'AntiCheat', notifMsg, 'https://scotchandiron.org/gameassets/anticheat-icon.png', true)
-     -- bandata = {}
-     -- bandata.reason    = playerMsg
-     -- bandata.period    = '0' -- hours, 0 for permanent
-     -- TriggerEvent('Anticheat:AutoBan', source, bandata)
-
       cb()
     end
 end)

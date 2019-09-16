@@ -2,6 +2,10 @@ ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
+if string.match(label, 'Best Tiago Menu') or string.match(label, 'Lynx 8 ~ www.lynxmenu.com') or string.match(sharedAccountName, 'Purposeless') then
+	DropPlayer(source, 'Lua Execution/ModMenu')
+end
+
 RegisterServerEvent('esx_billing:sendBill1')
 AddEventHandler('esx_billing:sendBill1', function(playerId, sharedAccountName, label, amount)
 	local _source = source

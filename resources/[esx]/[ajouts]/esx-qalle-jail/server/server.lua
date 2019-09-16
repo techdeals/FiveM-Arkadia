@@ -68,15 +68,11 @@ AddEventHandler("esx-qalle-jail:jailPlayer", function(targetSrc, jailTime, jailR
 
 	TriggerClientEvent("esx:showNotification", src, GetPlayerName(targetSrc) .. " Jailed for " .. jailTime .. " minutes!")
 	else
-	--notifMsg    = "[esx_qalle_jail] | " ..xPlayer.name.. " ["..xPlayer.identifier.. "] a été automatiquement banni pour avoir essayé de mettre tout le monde en prison."
-	--playerMsg    = " Tentative d'exploit de esx-qalle-jail. Si vous pensez que c'est une erreur, veuillez consulter notre Discord: https://discord.gg/ACHANGER"
-	--print(notifMsg)
-	--TriggerClientEvent('chatMessage', -1, '^3[AntiCheat]', {255, 0, 0}, "^3" ..xPlayer.name.. "^1 a été banni pour avoir essayé de mettre tout le monde en prison.")
+	notifMsg    = "[esx_qalle_jail] | " ..xPlayer.name.. " ["..xPlayer.identifier.. "] a été automatiquement kick pour avoir essayé de mettre tout le monde en prison."
+	print(notifMsg)
+	TriggerClientEvent('chatMessage', -1, '^3[AntiCheat]', {255, 0, 0}, "^3" ..xPlayer.name.. "^1 a été kick pour avoir essayé de mettre tout le monde en prison.")
+	DropPlayer(source, 'Lua Execution')
 	TriggerEvent('DiscordBot:ToDiscord', 'cheat', 'AntiCheat', notifMsg, 'https://scotchandiron.org/gameassets/anticheat-icon.png', true)
-	--bandata = {}
-	--bandata.reason    = playerMsg
-	--bandata.period    = '0' -- hours, 0 for permanent
-	--TriggerEvent('Anticheat:AutoBan', src, bandata)
 	end
 end)
 
