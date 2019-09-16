@@ -21,7 +21,7 @@ DiscordRichPresence :
 
 "[esx]\\[discord]\DiscordRichPresence\client.lua"
 
-Les glitchs des coffres et des factures négatif sont patchés ainsi que les ressources sécurisées contre les Moddeurs.
+Les glitchs des coffres et des factures négatif sont patchés ainsi que les ressources sécurisées contre les Moddeurs en les kikants.
 (bien sûr ils pourront toujours passer à travers certaines choses avec des connaissances)
 
 Pour changer les images des menus ;
