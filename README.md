@@ -4,8 +4,10 @@ French FiveM Server developped & edited by ikNox#6088
 Discord Bot :
 
 "[admin]\FiveM-BanSql-1.0.8\config.lua"
-"[esx]\[discord]\DiscordBot\config.lua"
-"[esx]\[discord]\esx_discord_bot\config.lua"
+
+"[esx]\\[discord]\DiscordBot\config.lua
+
+"[esx]\\[discord]\esx_discord_bot\config.lua"
 
 DiscordRichPresence :
 
@@ -16,7 +18,7 @@ Les glitchs des coffres et des factures négatif sont patchés ainsi que les res
 
 Pour changer les images des menus ;
 
-"[esx]\[ui]\esx_menu_default\html\img\header"
+"[esx]\\[ui]\esx_menu_default\html\img\header"
 
 Pour ajouter les images des métiers ou les changers :
 
@@ -24,7 +26,7 @@ Pour ajouter les images des métiers ou les changers :
 
 Changer le nom du menu de sélection du personnage :
 
-"[esx]\[base]\esx_kashacters\html\ui.html"
+"[esx]\\[base]\esx_kashacters\html\ui.html"
 
 Changer le LoadingScreen (Nom et Image) : 
 
