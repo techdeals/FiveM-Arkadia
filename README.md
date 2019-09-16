@@ -9,6 +9,10 @@ Discord Bot :
 
 "[esx]\\[discord]\esx_discord_bot\config.lua"
 
+Changer l'annonce de l'ip lors de l'ouverture du serveur :
+
+"[esx]\\[discord]\DiscordBot\server\Server.lua ligne 66
+
 DiscordRichPresence :
 
 "[esx]\\[discord]\DiscordRichPresence\client.lua"
